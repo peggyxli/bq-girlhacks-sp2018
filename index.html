@@ -24,7 +24,6 @@
 		<div class="collapse navbar-collapse" id="myNavbar">
 		  <ul class="nav navbar-nav navbar-right">
 			<li><a href="#process">HOW IT WORKS</a></li>
-			<li><a href="#app">OUR APP</a></li>
 			<li><a href="#about">ABOUT US</a></li>
 			<li><a href="sign-in.html">SIGN IN</a></li>
 		  </ul>
@@ -33,7 +32,7 @@
 </nav>
 
 <div class="jumbotron text-center">
-	<h1>Time is money. Trade yours in.</h1>
+	<h1 style="font-weight: 600;">Time is money. Trade yours in.</h1>
 	<p>The nation's first timebank for verified child sitting services</p>
 	<form>
 		<div class="row">
@@ -50,19 +49,66 @@
 				<input type="date">
 			</div>
 		</div>
-			<input id="chk_aliens" type="checkbox" name="wpuf_post_tags[]" class="vis-hidden new-post-tags" value="Aliens" />
-			<label for="chk_aliens">Aliens</label>
-
-			<input id="chk_ghosts" type="checkbox" name="wpuf_post_tags[]" class="vis-hidden new-post-tags" value="Ghosts" />
-			<label for="chk_ghosts">Ghosts</label>
-
-			<input id="chk_monsters" type="checkbox" name="wpuf_post_tags[]" class="vis-hidden new-post-tags" value="Monsters" />
-			<label for="chk_monsters">Monsters</label>
+		<div class="row">
+			<div class="col-sm-8">Age of child(ren)</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2">
+				<input id="newborn" type="checkbox" name="child-age" class="vis-hidden" value="newborn">
+				<label for="newborn"><strong>Newborn</strong><br>0-1 years</label>
+			</div>
+			<div class="col-sm-2">
+				<input id="toddler" type="checkbox" name="child-age" class="vis-hidden" value="toddler">
+				<label for="toddler"><strong>Toddler</strong><br>1-3 years</label>
+			</div>
+			<div class="col-sm-2">
+				<input id="child" type="checkbox" name="child-age" class="vis-hidden" value="child">
+				<label for="child"><strong>Child</strong><br>4-12 years</label>
+			</div>
+			<div class="col-sm-2">
+				<input id="teen" type="checkbox" name="child-age" class="vis-hidden" value="teen">
+				<label for="teen"><strong>Teen</strong><br>13+ years</label>
+			</div>
+			<div class="col-sm-4">
+				<button class="btn">Submit</button>
+			</div>
+		</div>
 	</form>
 </div>
 
-<div class="container">
-	<h1>How it works</h1>
+<div id="process">
+	<div class="container">
+		<h2><strong>How it works</strong></h2><br>
+		<div class="row">
+			<div class="col-sm-4">
+			  <span class="glyphicon glyphicon-time"></span>
+			  <br><br>
+			  <p>Donate your time to receive BabySurf credits</p>
+			</div>
+			<div class="col-sm-4">
+			  <span class="glyphicon glyphicon-piggy-bank"></span>
+			  <br><br>
+			  <p>Spend your credits on child sitting services</p>
+			</div>
+			<div class="col-sm-4">
+			  <span class="glyphicon glyphicon-usd"></span>
+			  <br><br>
+			  <p>Purchase more credits with money if you run out</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="about" class="container">
+	<div class="row">
+		<div class="col-sm-4">
+			<img src="BabySurf.png" style="max-width: 100%; border-radius: 50%">
+		</div>
+		<div class="col-sm-8">
+			<br><h2><strong>About Us</strong></h2><br>
+			<p>We are a community of women who seek to support each other in successfully completing college and entering the workforce.  We recognize that a significant hurdle many women face is finding affordable, reliable child care while attending classes and working.  We help each other overcome this by providing child care services to each other in exchange for credits earned either through cash payments or valuable community-oriented services.</p>
+		</div>
+	</div>
 </div>
 </body>
 </html>
