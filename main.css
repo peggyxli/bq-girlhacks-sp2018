@@ -134,7 +134,7 @@ input:checked + label {
 	color: black;
 }
 
-.btn {
+#submit-search {
 	width: 100%;
 	height: 68px;
 	background-color: #89D0F0;
