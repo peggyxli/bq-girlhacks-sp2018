@@ -1,0 +1,35 @@
+.input-signin {
+	font-size: 16px;
+	position:center;
+	background-color: #6d9ce8;
+}
+.container{
+	font-family: "Book Antiqua", serif;
+	height:550px;
+	
+}
+
+	
+#outline {
+	text-align: center;
+}
+
+#sign{
+	text-align: left;
+	font-size:20px;
+	margin:auto;
+	max-width: 250px;
+	
+}
+
+img{
+	border-radius: 50%;
+	height: 200px;
+	max-width: 200px;
+	margin: auto;
+	
+}
+input{
+	width:280px;
+}
+
